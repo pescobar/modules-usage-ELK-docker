@@ -1,0 +1,10 @@
+Oct  6 17:18:20 lii14 ModuleUsageTracking: user=foouser module=Python/2.7.5-goolf-1.4.10 path=/scicore/soft/modules/lang/Python/2.7.5-goolf-1.4.10 host=bc2.lii14.cluster.bc2.ch time=1444144700.504300
+Oct  6 17:18:20 lii15 ModuleUsageTracking: user=foouser module=OpenMPI/1.6.4-GCC-4.7.2 path=/scicore/soft/modules/mpi/OpenMPI/1.6.4-GCC-4.7.2 host=bc2.lii15.cluster.bc2.ch time=1444144700.289070
+Oct  6 17:18:20 lii15 ModuleUsageTracking: user=foouser module=gompi/1.4.10 path=/scicore/soft/modules/toolchain/gompi/1.4.10 host=bc2.lii15.cluster.bc2.ch time=1444144700.364204
+Oct  6 17:18:20 lii15 ModuleUsageTracking: user=foouser module=OpenBLAS/0.2.6-gompi-1.4.10-LAPACK-3.4.2 path=/scicore/soft/modules/numlib/OpenBLAS/0.2.6-gompi-1.4.10-LAPACK-3.4.2 host=bc2.lii15.cluster.bc2.ch time=1444144700.364850
+Oct  6 17:18:20 lii15 ModuleUsageTracking: user=foouser module=FFTW/3.3.3-gompi-1.4.10 path=/scicore/soft/modules/numlib/FFTW/3.3.3-gompi-1.4.10 host=bc2.lii15.cluster.bc2.ch time=1444144700.407680
+Oct  6 17:18:20 lii15 ModuleUsageTracking: user=baruser module=ScaLAPACK/2.0.2-gompi-1.4.10-OpenBLAS-0.2.6-LAPACK-3.4.2 path=/scicore/soft/modules/numlib/ScaLAPACK/2.0.2-gompi-1.4.10-OpenBLAS-0.2.6-LAPACK-3.4.2 host=bc2.lii15.cluster.bc2.ch time=1444144700.455134
+Oct  6 17:18:20 lii15 ModuleUsageTracking: user=baruser module=goolf/1.4.10 path=/scicore/soft/modules/toolchain/goolf/1.4.10 host=bc2.lii15.cluster.bc2.ch time=1444144700.455454
+Oct  6 17:18:20 lii03 ModuleUsageTracking: user=baruser module=Python/2.7.5-goolf-1.4.10 path=/scicore/soft/modules/lang/Python/2.7.5-goolf-1.4.10 host=bc2.lii03.cluster.bc2.ch time=1444144700.673208
+Oct  6 17:18:20 lii15 ModuleUsageTracking: user=baruser module=CHARMM/39a1-goolf-1.4.10-mpi path=/scicore/soft/modules/chem/CHARMM/39a1-goolf-1.4.10-mpi host=bc2.lii15.cluster.bc2.ch time=1444144700.456312
+Oct  6 17:18:21 lii15 ModuleUsageTracking: user=baruser module=Python/2.7.5-goolf-1.4.10 path=/scicore/soft/modules/lang/Python/2.7.5-goolf-1.4.10 host=bc2.lii15.cluster.bc2.ch time=1444144701.414136

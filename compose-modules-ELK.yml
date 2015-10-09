@@ -1,0 +1,29 @@
+elasticsearch-modules:
+     image: elasticsearch:1.7.2
+     container_name: elasticsearch-modules
+     #volumes:
+     #   - /Users/pablo/docker/modules-usage/elasticsearch/data:/usr/share/elasticsearch/data
+     environment:
+        - ES_CLUSTERNAME=modules_usage
+     #command: elasticsearch -Des.config=/usr/share/elasticsearch/data/elasticsearch.yml
+     ports:
+        - "9200:9200"
+        - "9300:9300"
+
+kibana-modules:
+     image: kibana:4.1.2
+     container_name: kibana-modules
+     ports:
+        - "5601:5601"
+     links:
+       - elasticsearch-modules:elasticsearch
+
+logstash-modules:
+     image: logstash:1.5.4-1
+     container_name: logstash-modules
+     volumes:
+        - /Users/pablo/docker/modules-usage/logstash:/conf
+        - /Users/pablo/docker/modules-usage/modulesUsage.log:/var/log/modulesUsage.log
+     command: logstash -f /conf/logstash.conf
+     links:
+       - elasticsearch-modules:elasticsearch
